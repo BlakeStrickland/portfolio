@@ -1,11 +1,8 @@
 Rails.application.routes.draw do
-  get 'my_infos/show'
+  root 'visitor_infos#new'
 
-  get 'my_infos/index'
-
-  get 'visitor_infos/show'
-
-  get 'visitor_infos/index'
+  resources :my_infos
+  resources :visitor_infos
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
