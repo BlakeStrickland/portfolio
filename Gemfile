@@ -24,7 +24,7 @@ gem "therubyracer"
 gem 'execjs'
 gem 'bourbon'
 gem "refills"
-gem "neat", '~> 1.6.0'
+gem "neat"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
