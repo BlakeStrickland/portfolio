@@ -12,7 +12,9 @@
  * file per style scope.
  *
  *= require_self
+
  */
-@import "bourbon/bourbon";
+@import "bourbon";
+@import 'neat';
 @import "my_infos";
 @import "visitor_infos";
