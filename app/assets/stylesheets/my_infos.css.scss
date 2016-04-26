@@ -40,8 +40,8 @@ $parallax-background-height: $parallax-window-height;
 
 .mid-background {
   @include outer-container;
-  background: url("record.gif");
-  background-color: black;
+  // background: url("record.gif");
+  // background-color: black;
   background-size: 800px 600px;
   background-repeat: no-repeat;
   padding-left: -1500px;
