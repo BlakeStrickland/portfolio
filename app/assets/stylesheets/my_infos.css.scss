@@ -5,11 +5,13 @@ body {
   font-family: sans-serif;
 }
 
-$parallax-window-height: 30em;
+$parallax-window-height: 50em;
 $parallax-background-height: $parallax-window-height;
 
 .parallax-window {
-  max-height: $parallax-window-height;
+  @include span-columns(12);
+  @include omega();
+  max-height: $parallax-window-height / 2;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -35,7 +37,18 @@ $parallax-background-height: $parallax-window-height;
   width: 100%;
 }
 
+.mid-background {
+  @include outer-container;
+  background: url("spin.jpg");
+  background-color: black;
+  background-size: 1200px 1000px;
+  background-repeat: no-repeat;
+  padding-left: -1500px;
+}
+
 .accordion-tabs-minimal {
+
+  @include span-columns(6);
   $base-border-color: #dcdcdc !default;
   $base-background-color: #fff !default;
   $base-spacing: 1.5em !default;
@@ -103,4 +116,10 @@ $parallax-background-height: $parallax-window-height;
       float: left;
     }
   }
+}
+
+
+.other6 {
+  @include span-columns(6);
+  @include omega();
 }
