@@ -39,12 +39,12 @@ $parallax-background-height: $parallax-window-height;
 
 .mid-background {
   @include outer-container;
-  background: url("spin.jpg");
+  background: url("record.gif");
   background-color: black;
-  background-size: 1200px 1000px;
+  background-size: 800px 600px;
   background-repeat: no-repeat;
   padding-left: -1500px;
-}
+
 
 .accordion-tabs-minimal {
 
@@ -117,9 +117,14 @@ $parallax-background-height: $parallax-window-height;
     }
   }
 }
-
+}
 
 .other6 {
   @include span-columns(6);
   @include omega();
+  background: url("planets.jpeg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+
 }
