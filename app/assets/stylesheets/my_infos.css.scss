@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
   font-family: sans-serif;
+  background-color: black;
 }
 
 $parallax-window-height: 30em;
@@ -122,9 +123,9 @@ $parallax-background-height: $parallax-window-height;
 .other6 {
   @include span-columns(6);
   @include omega();
-  background: url("planets.jpeg");
+  background: url("monster.png");
   background-color: black;
   background-repeat: no-repeat;
-  background-size: 800px 800px;
+  background-size: 800px 600px;
 
 }
