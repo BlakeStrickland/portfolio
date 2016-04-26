@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
 }
 
-$parallax-window-height: 50em;
+$parallax-window-height: 30em;
 $parallax-background-height: $parallax-window-height;
 
 .parallax-window {
@@ -26,7 +26,7 @@ $parallax-background-height: $parallax-window-height;
 }
 
 .parallax-background {
-  background: url("chalk-background.jpeg") repeat;
+  background: url("revamp-chalk.jpeg") repeat;
   background-size: cover;
   background-color: beige;
   background-position: top;
