@@ -39,7 +39,6 @@ $parallax-background-height: $parallax-window-height;
 }
 
 .mid-background {
-  @include outer-container;
   // background: url("record.gif");
   // background-color: black;
   background-size: 800px 600px;
@@ -50,7 +49,7 @@ $parallax-background-height: $parallax-window-height;
 .accordion-tabs-minimal {
 
   @include span-columns(6);
-  $base-border-color: #dcdcdc !default;
+  $base-border-color: #black !default;
   $base-background-color: #fff !default;
   $base-spacing: 1.5em !default;
   $action-color: #477dca !default;
@@ -58,8 +57,8 @@ $parallax-background-height: $parallax-window-height;
   $medium-screen: 40em !default;
   $tab-link-color: $dark-gray;
   $tab-border: 1px solid $base-border-color;
-  $tab-active-background: $base-background-color;
-  $tab-inactive-color: $base-background-color;
+  $tab-active-background: black;
+  $tab-inactive-color: black;
   $tab-inactive-hover-color: #c0c0c0;
   $tab-mode: $medium-screen;
 
@@ -75,10 +74,16 @@ $parallax-background-height: $parallax-window-height;
     }
   }
 
+  a {
+      color: white;
+  }
+  .ruby {
+    color: red;
+  }
   .tab-link {
-    background-color: $tab-inactive-color;
+    background-color: gray;
     border-top: $tab-border;
-    color: $tab-link-color;
+    color: white;
     display: block;
     padding: ($base-spacing / 2) $gutter;
     text-decoration: none;

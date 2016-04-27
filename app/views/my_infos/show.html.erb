@@ -8,7 +8,7 @@
 <div class=mid-background>
   <ul class="accordion-tabs-minimal">
     <li class="tab-header-and-content">
-      <a href="#" class="tab-link is-active">Ruby</a>
+      <a href="#" class="tab-link is-active ruby">Ruby</a>
       <div class="tab-content">
         <p>
             <%= link_to "Arttrackd", "https://github.com/arttrackd/arttrackd" %>
@@ -22,7 +22,7 @@
       </div>
     </li>
     <li class="tab-header-and-content">
-      <a href="#" class="tab-link">Python</a>
+      <a href="#" class="tab-link python">Python</a>
       <div class="tab-content">
         <p>
           <%= link_to "Monster", "https://github.com/BlakeStrickland/python_monster_game" %>
@@ -33,7 +33,7 @@
       </div>
     </li>
     <li class="tab-header-and-content">
-    <a href="javascript:void(0)" class="tab-link">Frontend</a>
+    <a href="javascript:void(0)" class="tab-link frontend">Frontend</a>
     <div class="tab-content">
       <p> <%= link_to "To do list", "https://github.com/BlakeStrickland/to_do_list" %></p>
       <p> <%= link_to "Gradebook", "https://github.com/Nega-Gradebook/Gradebook" %>
@@ -61,24 +61,46 @@
 
 <div class="side-image">
   <div class="images-wrapper"></div>
-    <div class="side-image-content">
-      <h4>Find new ways to code</h4>
-      <h3><a href="https://www.codingame.com/clashofcode">Clash of Code!</a></h3>
-        <ul>
-          <li>Challenge your skills against random people across the world</li>
-          <li>Improve your code with a multitude of different languages</li>
-        </ul>
-        <h3><a href="https://coderbyte.com/">Coderbyte!</a></h3>
-        <ul>
-          <li>Complete challenges, videos and tutorials</li>
-        </ul>
-      <h3><a href="https://codecombat.com/">Code Combat!</a></h3>
-      <ul>
-        <li>Complete game levels while practicing code</li>
-      </ul>
+  <div class="side-image-content">
+    <h4>Find new ways to code</h4>
+    <div class="hover-tile-outer">
+      <div class="hover-tile-container">
+        <div class="hover-tile hover-tile-visible"></div>
+        <div class="hover-tile hover-tile-hidden">
+          <h3><a href="https://www.codingame.com/clashofcode">Clash of Code!</a></h3>
+            <ul>
+              <li>Challenge your skills against random people across the world</li>
+              <li>Improve your code with a multitude of different languages</li>
+            </ul>
+            <h3><a href="https://coderbyte.com/">Coderbyte!</a></h3>
+            <ul>
+              <li>Complete challenges, videos and tutorials</li>
+            </ul>
+          <h3><a href="https://codecombat.com/">Code Combat!</a></h3>
+          <ul>
+            <li>Complete game levels while practicing code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
+
+<div class="modal">
+  <label for="modal-1">
+    <div class="modal-trigger">Click for Modal</div>
+  </label>
+  <input class="modal-state" id="modal-1" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h1>Resume here</h1>
+      <p class="modal-intro">Resume</p>
+      <p class="modal-content">stuff</p>
+    </div>
+  </div>
+</div>
 
 <!--<div class="wrapper-for-content-outside-of-footer">
    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
