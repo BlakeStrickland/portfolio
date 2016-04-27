@@ -1,0 +1,55 @@
+﻿Blake Strickland
+StricklandB02@gmail.com | (919) 943-7218 | github.com/blakestrickland
+
+
+Skills
+* Ruby on Rails
+* Python
+* Fully functional web applications
+* Database creation and queries
+* API development
+* GitHub to software version control through Git
+* Test Driven Development
+* MVC framework
+* AGILE development practices
+* REST architecture
+* Ubuntu 14.04
+* SQL Database Management
+* Oracle Introduction
+* Oracle 11g PL/SQL
+* Linux
+* Oracle 11g Database         Administration
+
+
+
+
+Work Experience
+Iron Yard, Python Teacher Assistant, April 2016 - June 2016.
+Maintained class lecture statistics, continuous help during lecture and lab and constructing homework and daily challenges.
+
+
+Iron Yard, Ruby Teacher Assistant. February 2016 - April 2016.
+Keep class statistics (for lecture and homework), help during class and lab. Hosted a one hour review session daily with students to help solidify concepts.
+
+
+DTS Software, Contracted Developer, December 2015 - March 2016.
+Created a Rails application on an Ubuntu server to take mainframe information and output performance statistics as a pdf with assistance from google charts. Worked in an Agile environment alongside a senior developer. Completed project ahead of time and demoed in Texas.
+
+
+Final Project – ArtTrack (https://arttrackd.herokuapp.com/)
+ArtTrack is a Rails application created in an Agile environment, hosted on Heroku and backed by Test Driven Development that allows artists to monitor the fluctuation of their materials, expenses, and project projections in one streamlined site. Utilizing time entries, users are able to keep track of current goals as well as analyze their most profitable margins in order to best capture their progress. Developed with JavaScript, AJAX, and Bourbon/Neat, this app serves to benefit the growth of a diverse range of artists.
+
+
+Brickman Landscaping, Crew Member, July 2015 - August 2015.
+Promoted to second in command within a few weeks. My main responsibilities include, but were not limited to, managing teams of 2-6 people, using power mowers and edgers, pruning, maintaining equipment, and mixing herbicides and insecticides all to provide proper upkeep of acreage features.
+
+
+Product Identification Inc, Press Operator / Screen Printer, June 2012 - July 2015.
+My primary role as a machine operator was to break down large rolls of material into the required measurements for the commissioned orders. These orders were then printed, packaged, and shipped out by me to their related client. Along with these tasks I also took on the role of a screen printer.
+
+
+Education
+        The Iron Yard - Ruby on Rails / Python
+        Wake County Technical College - Oracle 11g / Linux
+        College of San Mateo - Computer Forensics and Networking
+        East Carolina University - Computer Science
