@@ -1,3 +1,3 @@
 ## My Portfolio
 
-beta 1
+beta 2
